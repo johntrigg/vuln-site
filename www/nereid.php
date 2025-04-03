@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Triton Expedition Log</title>
+    <title>Nereid Expedition Log</title>
     <link rel="stylesheet" href="css/styles.css">
     <style>
         .planet-card {
@@ -48,16 +48,18 @@
 </head>
 <body>
 <div class="container planet-card">
-    <h2>🛰️ Triton Survey Log</h2>
-    <p><strong>Designation:</strong> TRN-001</p>
-    <p><strong>Summary:</strong> Triton is Neptune's largest moon, a retrograde orbiting, cryovolcanic world cloaked in nitrogen ice and secrets. Believed to be a captured Kuiper Belt object, it is one of the few known moons in the solar system with a **geologically active surface**.</p>
-    <img src="images/AttentionPassengers.webp" alt="Triton and Neptune from orbit">
-    <p>High-resolution orbital imaging reveals a chaotic crust peppered with fissures, black geyser plumes, and a thin, transient atmosphere. Life is not expected — but signals emanating from beneath its icy shell have sparked interest among deep-space probes.</p>
+    <h2>🛰️ Nereid Survey Log</h2>
+    <p><strong>Designation:</strong> NRD-221</p>
+    <p><strong>Summary:</strong> Nereid is one of Neptune’s most distant moons, following an erratic and elliptical orbit that suggests a violent history—possibly the remnant of a shattered celestial body, or a captured object from the Kuiper Belt.</p>
 
-    <p>⚠️ <em>Encrypted data feeds from Probe Orpheus indicate anomalous heat signatures below the southern hemisphere. Further investigation authorized by the Galactic Science Council.</em></p>
+    <img src="images/nereid.jpg" alt="View of Neptune from Nereid">
+
+    <p>From its jagged, glacial surface, Neptune is a brilliant, icy beacon in the sky. Missions to Nereid are few, but observational scans indicate intense radiation flux and irregular magnetic distortions during periapsis. Atmospheric readings remain inconclusive.</p>
+
+    <p>📡 <em>Last signal from Probe Minerva suggests gravitational anomalies near the southern ridge. Transmission terminated mid-sequence. Debriefing classified.</em></p>
 
     <div class="return-link">
-        <a href="observatory.php">🔙 Return to Observatory</a>
+        <a href="neptune.php">🔙 Return to Neptune Logs</a>
     </div>
 </div>
 </body>
