@@ -21,7 +21,7 @@
     <hr>
 
     <?php
-    $emperor_file = '/root/galactic-emperor.txt';
+    $emperor_file = '/.../galactic-emperor.txt';
     if (file_exists($emperor_file)) {
         $emperor = trim(file_get_contents($emperor_file));
         echo "<p><strong>📜 The current Galactic Emperor is <span style='color:#64ffda;'>$emperor</span>. All hail, and blessed be their name!</strong></p>";
