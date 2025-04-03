@@ -1,5 +1,5 @@
 <?php
-$emperor_file = '/root/galactic-emperor.txt';
+$emperor_file = '/.../galactic-emperor.txt';
 $emperor = file_exists($emperor_file)
     ? trim(file_get_contents($emperor_file))
     : "🛑 UNKNOWN";
