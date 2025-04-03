@@ -66,6 +66,7 @@
     </style>
 </head>
 <body>
+<?php include 'header.php'; ?>
 <div class="container probe-station">
     <img src="images/blackhole.webp" alt="Supermassive Black Hole">
     <h2>⚫️ Black Hole Probe Station</h2>

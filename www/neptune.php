@@ -27,14 +27,13 @@
     </style>
 </head>
 <body>
+<?php include 'header.php'; ?>
 <div class="container">
     <h1>🪐 Neptune Expedition Logs</h1>
 
     <div class="moon-nav">
         <a href="neptune.php?moon=triton.php">Triton</a>
-        <a href="neptune.php?moon=proteus.php">Proteus</a>
         <a href="neptune.php?moon=nereid.php">Nereid</a>
-        <a href="neptune.php?moon=larissa.php">Larissa</a>
     </div>
 
     <?php

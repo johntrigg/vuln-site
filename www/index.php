@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+<?php include 'header.php'; ?>
 <div class="container">
     <h1>🔭 Planetary Observatory 🔭</h1>
 
