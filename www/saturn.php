@@ -9,7 +9,7 @@
 <h1>🪐 Saturn Expedition Logs</h1>
 <?php
 if (isset($_GET['moon'])) {
-    include($_GET['moon'] . '.php');
+    include($_GET['moon']);
 } else {
     echo "Select a moon to explore...";
 }

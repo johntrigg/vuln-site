@@ -12,7 +12,7 @@
     <p>Select your mission and venture into the unknown:</p>
 
     <ul>
-        <li>🪐 <a href="saturn.php?moon=triton">Expedition to Saturn</a> - Analyze moons and planetary phenomena.</li>
+        <li>🪐 <a href="saturn.php?moon=triton.php">Expedition to Saturn</a> - Analyze moons and planetary phenomena.</li>
         <li>🚀 <a href="launchpad.php">Satellite Launchpad</a> - Deploy your custom payloads into orbit.</li>
         <li>⚫️ <a href="blackhole.php">Black Hole Probe Station</a> - Send signals into the event horizon and observe responses.</li>
     </ul>
