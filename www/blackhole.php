@@ -73,7 +73,7 @@
 
     <p>Welcome to the event horizon interface. This facility exists to send <strong>signal pulses</strong> toward the singularity in Sector V-9X. Only authorized personnel may initiate transmissions.</p>
 
-    <p><strong>Authorization required:</strong> Please enter a valid authentication code to proceed with probe signal deployment.</p>
+    <p><strong>Authorization required:</strong> Please enter a valid 4-digit authentication code to proceed with probe signal deployment.</p>
 
     <form action="blackhole.php" method="get">
         Coordinates: <input type="text" name="signal" required><br>
