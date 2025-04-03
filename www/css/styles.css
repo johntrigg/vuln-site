@@ -1,57 +1,74 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap');
 
-body {
-    font-family: 'Orbitron', sans-serif;
+html, body {
+    height: 100%;
     margin: 0;
     padding: 0;
-    background-color: #0d1117;
+    font-family: 'Orbitron', sans-serif;
+    background-color: #000814;
     color: #e0e7ff;
-    background-image: url('../images/planet.jpg');
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: url('../images/galaxy.webp') no-repeat center center fixed;
     background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
+    opacity: 0.2;
+    z-index: -1;
 }
 
 .container {
-    max-width: 800px;
-    margin: 50px auto;
-    background-color: rgba(10, 25, 47, 0.9);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+    max-width: 900px;
+    margin: 5% auto;
+    background-color: rgba(0, 10, 30, 0.9);
+    padding: 25px 35px;
+    border-radius: 12px;
+    box-shadow: 0 0 25px rgba(0, 255, 255, 0.2);
 }
 
 h1 {
     color: #64ffda;
     text-align: center;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    color: #a2d2ff;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    font-size: 1.1rem;
+    margin-bottom: 12px;
 }
 
 a {
     color: #58a6ff;
     text-decoration: none;
+    transition: 0.3s;
 }
 
 a:hover {
     color: #0affff;
-    text-shadow: 0 0 5px #0affff;
+    text-shadow: 0 0 8px #0affff;
 }
 
-input[type="submit"], input[type="file"], input[type="text"] {
-    padding: 10px;
-    border-radius: 5px;
-    border: none;
-    background-color: #1f2937;
-    color: #e0e7ff;
-}
-
-input[type="submit"]:hover {
-    background-color: #374151;
-    cursor: pointer;
-}
-
-pre {
-    background-color: #161b22;
-    padding: 15px;
-    border-radius: 5px;
-    overflow-x: auto;
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.8rem;
+    color: #8892b0;
 }
