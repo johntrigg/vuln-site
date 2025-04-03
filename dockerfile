@@ -9,6 +9,7 @@ RUN apt-get update && \
 
 
 RUN echo 'Dr. Marbin, the GOAT' > /root/galactic-emperor.txt
+RUN chmod 644 /root/galactic-emperor.txt
 # Copy all web files into the container
 COPY www/ /var/www/html/
 
